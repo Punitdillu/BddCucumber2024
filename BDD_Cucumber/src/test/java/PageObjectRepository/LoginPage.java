@@ -17,7 +17,7 @@ public class LoginPage {
 	By loginButton= By.xpath("//input[@id='submitButton']");
 	By administratorIcon= By.xpath("//span[text()=' Administrator']");
 	
-	
+	// business logic
 	public void sendUserName(String Userid)
 	{
 		driver.findElement(userName).sendKeys(Userid);
